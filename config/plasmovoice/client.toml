@@ -5,6 +5,10 @@ check_for_updates = true
 key_bindings = []
 
 
+[addons.pv-addon-soundphysics]
+mic_reverb = true
+mic_reverb_volume = 1.0
+enabled = true
 
 [voice]
 disabled = false
@@ -23,6 +27,8 @@ directional_sources = false
 hrtf = false
 stereo_capture = false
 
+[voice.volumes.proximity]
+volume = 1.0
 
 [advanced]
 visualize_voice_distance = true
@@ -49,3 +55,5 @@ overlay_enabled = true
 overlay_position = "TOP_LEFT"
 overlay_style = "NAME_SKIN"
 
+[overlay.source_states]
+proximity = "OFF"
