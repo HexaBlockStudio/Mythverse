@@ -1,8 +1,0 @@
-{
-  "allowMovement": {
-    "mezz.jei.gui.recipes.RecipesGui": true
-  },
-  "hideBackground": {
-    "mezz.jei.gui.recipes.RecipesGui": true
-  }
-}
