@@ -11,7 +11,7 @@
 	// Amount of allowed mob kills in a chunk
 	"mobKillCount": 6,
 	// Strange potion resets all stats instead of one
-	"opStrangePotion": false,
+	"opStrangePotion": true,
 	// restrict hand usage when item not unlocked, client only
 	"lockedHandUsage": false,
 	// Only for Devs
@@ -92,7 +92,7 @@
 	"mobXPMultiplier": 1.0,
 	"spawnerMobXP": false,
 	// Highlight locked blocks in red., client only
-	"highlightLocked": false,
+	"highlightLocked": true,
 	// client only
 	"inventorySkillLevel": true,
 	// client only
@@ -104,15 +104,15 @@
 	// client only
 	"showLevel": true,
 	// Switch levelz screen instead of closing with inventory key, client only
-	"switchScreen": false,
+	"switchScreen": true,
 	// client only
-	"showLockedBlockInfo": false,
+	"showLockedBlockInfo": true,
 	// client only
 	"lockedBlockInfoPosX": 0,
 	// client only
 	"lockedBlockInfoPosY": 0,
 	"restrictions": true,
-	"defaultRestrictions": true,
+	"defaultRestrictions": false,
 	// Remember to name your datapack json differently than default
 	"defaultSkills": true
 }

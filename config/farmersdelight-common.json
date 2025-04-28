@@ -6,7 +6,7 @@
     "wanderingTraderSellsFDItems": true,
     "richSoilBoostChance": 0.2,
     "cuttingBoardFortuneBonus": 0.1,
-    "enableRopeReeling": true,
+    "enableRopeReeling": false,
     "canvasSignDarkBackgroundList": [
       "gray",
       "purple",

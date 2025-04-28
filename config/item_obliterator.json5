@@ -16,7 +16,22 @@
   // Items here will be unusable completely
   //    Example: minecraft:diamond
   "blacklisted_items": [
-    "examplemod:example_item"
+    "earlystage:steel_ingot",
+    "earlystage:steel_nugget",
+    "earlystage:steel_helmet",
+    "earlystage:steel_chestplate",
+    "earlystage:steel_leggings",
+    "earlystage:steel_boots",
+    "earlystage:steel_sword",
+    "earlystage:steel_shovel",
+    "earlystage:steel_pickaxe",
+    "earlystage:steel_axe",
+    "earlystage:steel_hoe",
+    "earlystage:steel_horse_armor",
+    "earlystage:steel_block",
+    "farmersdelight:tree_bark",
+    "moredelight:diced_potatoes",
+    "moredelight:potato_salad"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain Component Data. If the whole entry (or expression) is present, the item gets removed.

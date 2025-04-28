@@ -5,7 +5,7 @@
 	"jobChangeTime": 24000,
 	// Reset current job lvl xp when died
 	"resetCurrentJobXP": true,
-	"defaultJobs": true,
+	"defaultJobs": false,
 	// Only for Devs, client only
 	"devMode": false,
 	// XP equation: lvl^exponent * multiplicator + base

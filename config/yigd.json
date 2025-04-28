@@ -19,7 +19,7 @@
     "dropOnGroundSlots": []
   },
   "expConfig": {
-    "dropBehaviour": "BEST_OF_BOTH",
+    "dropBehaviour": "VANILLA",
     "dropPercentage": 0,
     "keepPercentage": 0
   },
@@ -46,7 +46,7 @@
     "claimPriority": "GRAVE",
     "graveRobbing": {
       "enabled": true,
-      "killerSkipWaitTime": false,
+      "killerSkipWaitTime": true,
       "afterTime": 1,
       "timeUnit": "HOURS",
       "robPriority": "INVENTORY",
@@ -70,17 +70,17 @@
       "spawnEntity": "minecraft:zombie",
       "spawnNbt": "{ArmorItems:[{},{},{},{id:\"minecraft:player_head\",components:{\"minecraft:profile\":{name:\"${owner.name}\",id:${owner.uuid}}}}]}"
     },
-    "generateOnLastGroundPos": false,
-    "tryGenerateOnGround": false,
+    "generateOnLastGroundPos": true,
+    "tryGenerateOnGround": true,
     "generationMaxDistance": {
       "x": 5,
-      "y": 5,
+      "y": 32,
       "z": 5
     },
-    "useSoftBlockWhitelist": false,
+    "useSoftBlockWhitelist": true,
     "useStrictBlockBlacklist": true,
     "replaceOldWhenClaimed": true,
-    "dropItemsIfDestroyed": false,
+    "dropItemsIfDestroyed": true,
     "notifyOwnerIfDestroyed": true,
     "persistentGraves": {
       "enabled": false,
@@ -90,7 +90,7 @@
     },
     "dimensionBlacklist": [],
     "blockUnderGrave": {
-      "enabled": true,
+      "enabled": false,
       "blockInDimensions": [
         {
           "key": "minecraft:overworld",

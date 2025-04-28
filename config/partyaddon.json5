@@ -4,9 +4,9 @@
 	"distributeLevelZXP": true,
 	// Time in ticks
 	"invitationTime": 1200,
-	"groupSize": 7,
+	"groupSize": 4,
 	"groupXpBonus": 0.05000000074505806,
-	"fullGroupBonus": 0.5,
+	"fullGroupBonus": 0.25,
 	"showGroupHud": true,
 	"hudMaxWidth": 55,
 	"hudOpacity": 0.75,
