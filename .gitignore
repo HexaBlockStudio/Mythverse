@@ -2,6 +2,7 @@
 /.fabric/
 /.mixin.out/
 /cache/
+/config/packetfixer.properties
 /crash-reports/
 /debug/
 /downloads/
