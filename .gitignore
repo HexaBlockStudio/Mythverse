@@ -6,6 +6,7 @@
 /.fabric
 /.mixin.out
 /cache
+/config
 /crash-reports
 /debug
 /downloads
@@ -15,4 +16,7 @@
 config/packetfixer.properties
 journeymap/journeymap.log
 command_history.txt
+realms_persistence.json
+servers.dat
+servers.dat_old
 usercache.json
