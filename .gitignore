@@ -11,16 +11,17 @@
 /downloads
 /journeymap
 
-/config
-!config/bettercombat
-!config/inventoryprofilesnext
-!config/paxi
-!config/plasmovoice
-!config/soundboard
+/command_history.txt
+/realms_persistence.json
+/servers.dat
+/servers.dat_old
+/usercache.json
+/configureddefaults/README.md
 
-command_history.txt
-realms_persistence.json
-servers.dat
-servers.dat_old
-usercache.json
-configureddefaults/README.md
+
+!config/bettercombat/
+!config/inventoryprofilesnext/
+!config/paxi/
+!config/plasmovoice/
+!config/soundboard/
+!config/amendments-common.json
