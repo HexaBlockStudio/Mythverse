@@ -1,3 +1,5 @@
+*.log
+
 /logs
 /moddata
 /saves
@@ -9,15 +11,18 @@
 /crash-reports
 /debug
 /downloads
-/journeymap
+
+/journeymap/data
+/journeymap/icon
 
 /command_history.txt
 /realms_persistence.json
 /servers.dat
 /servers.dat_old
 /usercache.json
-/configureddefaults/README.md
 
+!journeymap/config/
+!journeymap/server/
 
 !config/bettercombat/
 !config/inventoryprofilesnext/
