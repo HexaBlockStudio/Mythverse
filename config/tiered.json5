@@ -13,7 +13,7 @@
 	"levelzReforgeModifier": 0.009999999776482582,
 	// Modify the biggest weights by this modifier per luck
 	"luckReforgeModifier": 0.019999999552965164,
-	"uniqueReforge": true,
+	"uniqueReforge": false,
 	"showReforgingTab": true,
 	"xIconPosition": 0,
 	"yIconPosition": 0,
