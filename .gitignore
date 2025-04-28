@@ -20,13 +20,3 @@
 /servers.dat
 /servers.dat_old
 /usercache.json
-
-!journeymap/config/
-!journeymap/server/
-
-!config/bettercombat/
-!config/inventoryprofilesnext/
-!config/paxi/
-!config/plasmovoice/
-!config/soundboard/
-!config/amendments-common.json
