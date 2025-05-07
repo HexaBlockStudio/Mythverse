@@ -25,7 +25,7 @@ particles:0
 reducedDebugInfo:false
 renderClouds:"true"
 renderDistance:10
-simulationDistance:5
+simulationDistance:10
 screenEffectScale:1.0
 soundDevice:""
 autoJump:false
@@ -50,7 +50,7 @@ mouseSensitivity:0.15140845070422534
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","moonlight:mods_dynamic_assets","continuity:glass_pane_culling_fix","continuity:default","seamless:default_seamless","file/§9RAY\u0027s §f3D §6Ladders§8§o§k.zip","file/§9RAY\u0027s §f3D §6Rails§8§o§k.zip","file/Better+Lanterns+v1.2(mc-1.21).zip","file/waystones_1.21.1.zip","file/Glowing Caves Background.zip","subtle_effects:biome_color_water_particles","file/Simple Grass Flowers v1.9.5.zip","file/Fancy Crops v1.1.zip","file/Delightful-plaques-v1.1 (1.21).zip","file/FreshAnimations_v1.9.2.zip","file/FA+Details-v1.1.zip","file/FA+Emissive-v1.2.zip","file/FA+Objects-v1.1.zip","file/FA+Quivers-v1.1.zip","file/FA+Spiders-v1.1.zip","file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip","file/Better_Icons_1.21.zip","file/BetterTooltip.zip","minecraft:tieredz_mrpgc"]
+resourcePacks:["vanilla","fabric","moonlight:mods_dynamic_assets","continuity:glass_pane_culling_fix","continuity:default","seamless:default_seamless","file/§9RAY\u0027s §f3D §6Ladders§8§o§k.zip","file/§9RAY\u0027s §f3D §6Rails§8§o§k.zip","file/Better+Lanterns+v1.2(mc-1.21).zip","file/waystones_1.21.1.zip","file/Glowing Caves Background.zip","subtle_effects:biome_color_water_particles","file/Simple Grass Flowers v1.9.5.zip","file/Fancy Crops v1.1.zip","file/Delightful-plaques-v1.1 (1.21).zip","file/FreshAnimations_v1.9.2.zip","file/FA+Details-v1.1.zip","file/FA+Emissive-v1.2.zip","file/FA+Objects-v1.1.zip","file/FA+Quivers-v1.1.zip","file/FA+Spiders-v1.1.zip","file/-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip","file/Better_Icons_1.21.zip","file/BetterTooltip.zip","minecraft:tieredz_mrpgc","soundboard:default"]
 incompatibleResourcePacks:["ambientenvironment","appleskin","badoptimizations","balm","betteradvancements","betterdays","bookshelf","brewinandchewin","carryon","comforts","distraction_free_recipes","enchdesc","fishermens_trap","jmi","kiwi","lootintegrations","mes","mns","modernfix","mr_dungeons_andtaverns","mr_dungeons_andtavernsdeserttemplereplacement","mr_dungeons_andtavernsjungletemplereplacement","mr_dungeons_andtavernsnetherfortressoverhaul","mr_dungeons_andtavernsoceanmonumentreplacement","mss","mvs","neruina","netherportalfix","passablefoliage","patchouli","polymorph","pv-addon-soundphysics","readyplayerfun","seasonhud","sereneseasons","skinrestorer","spark","spectrelib","starterkit","subtle_effects","tectonic","terrablender","toughasnails","txnilib","watut","waystones","yet_another_config_lib_v3","file/Glowing Caves Background.zip","file/FA+Objects-v1.1.zip","file/FA+Quivers-v1.1.zip","file/BetterTooltip.zip","minecraft:tieredz_mrpgc"]
 lastServer:
 lang:en_us
@@ -60,7 +60,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -172,18 +172,6 @@ key_key.presencefootsteps.settings:key.keyboard.unknown
 key_key.presencefootsteps.toggle:key.keyboard.unknown
 key_reacharound.keybinding.toggle:key.keyboard.unknown
 key_desc.seasonhud.keybind.options:key.keyboard.unknown
-key_key.shouldersurfing.adjust_camera_left:key.keyboard.unknown
-key_key.shouldersurfing.adjust_camera_right:key.keyboard.unknown
-key_key.shouldersurfing.adjust_camera_in:key.keyboard.unknown
-key_key.shouldersurfing.adjust_camera_out:key.keyboard.unknown
-key_key.shouldersurfing.adjust_camera_up:key.keyboard.unknown
-key_key.shouldersurfing.adjust_camera_down:key.keyboard.unknown
-key_key.shouldersurfing.swap_shoulder:key.keyboard.f6
-key_key.shouldersurfing.toggle_first_person:key.keyboard.unknown
-key_key.shouldersurfing.toggle_third_person_front:key.keyboard.unknown
-key_key.shouldersurfing.toggle_third_person_back:key.keyboard.unknown
-key_key.shouldersurfing.free_look:key.keyboard.left.alt
-key_key.shouldersurfing.toggle_camera_coupling:key.keyboard.unknown
 key_soundboard.keybinds.browser:key.keyboard.j
 key_soundboard.keybinds.cancel:key.keyboard.u
 key_soundboard.keybinds.play:key.keyboard.o
