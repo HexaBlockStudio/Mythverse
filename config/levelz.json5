@@ -1,15 +1,15 @@
 {
 	// Maximum level: 0 = disabled
-	"overallMaxLevel": 0,
+	"overallMaxLevel": 240,
 	// In combination with overallMaxLevel, only when all skills maxed
 	"allowHigherSkillLevel": false,
-	"startPoints": 5,
-	"pointsPerLevel": 3,
+	"startPoints": 2,
+	"pointsPerLevel": 1,
 	// If true will reset stats on death
 	"hardMode": false,
 	"disableMobFarms": true,
 	// Amount of allowed mob kills in a chunk
-	"mobKillCount": 6,
+	"mobKillCount": 15,
 	// Strange potion resets all stats instead of one
 	"opStrangePotion": true,
 	// restrict hand usage when item not unlocked, client only
@@ -73,7 +73,7 @@
 	// Bonus id: evadingDamageChance
 	"evadingDamageChanceBonus": 0.10000000149011612,
 	// XP equation: lvl^exponent * multiplicator + base
-	"xpCostMultiplicator": 0.10000000149011612,
+	"xpCostMultiplicator": 0.125,
 	"xpExponent": 2,
 	"xpBaseCost": 50,
 	// 0 = no experience cap
@@ -84,7 +84,7 @@
 	"basedOnMultiplier": 0.009999999776482582,
 	"breedingXPMultiplier": 1.0,
 	"bottleXPMultiplier": 1.0,
-	"dragonXPMultiplier": 0.5,
+	"dragonXPMultiplier": 0.800000011920929,
 	"fishingXPMultiplier": 0.800000011920929,
 	"furnaceXPMultiplier": 0.10000000149011612,
 	"oreXPMultiplier": 1.0,
@@ -104,7 +104,7 @@
 	// client only
 	"showLevel": true,
 	// Switch levelz screen instead of closing with inventory key, client only
-	"switchScreen": true,
+	"switchScreen": false,
 	// client only
 	"showLockedBlockInfo": true,
 	// client only

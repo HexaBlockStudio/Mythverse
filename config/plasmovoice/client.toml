@@ -2,6 +2,15 @@ debug = false
 disable_crowdin = false
 check_for_updates = true
 
+[activations.4aec07ba-d109-3345-9a0a-92022a116cd0]
+toggle = false
+type = "VOICE"
+[[key_bindings]]
+keys = []
+name = "key.plasmovoice.general.mute_microphone"
+any_context = false
+category = "key.plasmovoice.general"
+
 [[key_bindings]]
 name = "key.plasmovoice.proximity.ptt"
 any_context = true
@@ -23,7 +32,7 @@ enabled = true
 disabled = false
 microphone_disabled = false
 activation_threshold = -30.0
-input_device = ""
+input_device = "OpenAL Soft on Microphone (HIFI Audio)"
 output_device = ""
 disable_input_device = false
 use_javax_input = false

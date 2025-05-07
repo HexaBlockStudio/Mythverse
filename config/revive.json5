@@ -6,7 +6,7 @@
 	// Drops player inventory items randomly
 	"dropRandom": false,
 	// Drops random items when killed by explosion
-	"dropRandomOnExplosion": true,
+	"dropRandomOnExplosion": false,
 	// Chance for each inventory item to drop
 	"dropChance": 0.30000001192092896,
 	// Mainly for compatibility with RpgZ
@@ -17,7 +17,7 @@
 	"reviveSupportiveHealthPoints": 10,
 	"showDeathCoordinates": true,
 	"thirdPersonOnDeath": true,
-	"rotationSpeed": 0.4000000059604645,
+	"rotationSpeed": 0.30000001192092896,
 	// Apply effects on revival
 	"reviveEffects": true,
 	"effectLivelyAftermath": 300,
