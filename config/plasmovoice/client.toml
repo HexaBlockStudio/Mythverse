@@ -45,8 +45,10 @@ directional_sources = true
 hrtf = true
 stereo_capture = false
 
+[voice.volumes.source_67ff6af4-6c48-3b72-be61-5397bac559c7]
+volume = 1.2
 [voice.volumes.proximity]
-volume = 1.0
+volume = 2.0
 
 [advanced]
 visualize_voice_distance = true
