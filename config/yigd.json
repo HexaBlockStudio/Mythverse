@@ -20,7 +20,7 @@
   },
   "expConfig": {
     "dropBehaviour": "VANILLA",
-    "dropPercentage": 0,
+    "dropPercentage": 20,
     "keepPercentage": 0
   },
   "graveConfig": {

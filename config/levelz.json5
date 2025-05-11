@@ -73,18 +73,18 @@
 	// Bonus id: evadingDamageChance
 	"evadingDamageChanceBonus": 0.10000000149011612,
 	// XP equation: lvl^exponent * multiplicator + base
-	"xpCostMultiplicator": 0.125,
+	"xpCostMultiplicator": 0.15000000596046448,
 	"xpExponent": 2,
 	"xpBaseCost": 50,
 	// 0 = no experience cap
 	"xpMaxCost": 0,
-	"resetCurrentXp": true,
+	"resetCurrentXp": false,
 	"dropXPbasedOnLvl": false,
 	// 0.01 = 1% more xp per lvl
 	"basedOnMultiplier": 0.009999999776482582,
 	"breedingXPMultiplier": 1.0,
 	"bottleXPMultiplier": 1.0,
-	"dragonXPMultiplier": 0.800000011920929,
+	"dragonXPMultiplier": 0.5,
 	"fishingXPMultiplier": 0.800000011920929,
 	"furnaceXPMultiplier": 0.10000000149011612,
 	"oreXPMultiplier": 1.0,
