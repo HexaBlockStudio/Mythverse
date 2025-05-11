@@ -50,15 +50,15 @@ mouseSensitivity:0.15140845070422534
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","minecraft:tieredz_mrpgc","moonlight:mods_dynamic_assets","continuity:glass_pane_culling_fix","continuity:default","subtle_effects:biome_color_water_particles","seamless:default_seamless","minecraft:supporteatinganimation","01-FreshAnimations_v1.9.2.zip","02-Better_Icons_1.21.zip","02-FA+Details-v1.1.zip","02-FA+Emissive-v1.2.zip","02-FA+Objects-v1.1.zip","02-FA+Quivers-v1.1.zip","02-FA+Spiders-v1.1.zip","03-Better+Lanterns+v1.2(mc-1.21).zip","03-BetterTooltip.zip","03-Fancy Crops v1.1.zip","03-Simple Grass Flowers v1.9.5.zip","03-§9RAY\u0027s §f3D §6Ladders§8§o§k.zip","03-§9RAY\u0027s §f3D §6Rails§8§o§k.zip","04-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip","04-Delightful-plaques-v1.1 (1.21).zip","04-waystones_1.21.1.zip","05-Glowing Caves Background.zip"]
-incompatibleResourcePacks:["ambientenvironment","appleskin","badoptimizations","balm","betteradvancements","betterdays","bookshelf","brewinandchewin","carryon","comforts","dailyquests","distraction_free_recipes","enchdesc","fishermens_trap","jei","journeypac","kiwi","lootintegrations","mes","mns","modernfix","mr_dungeons_andtaverns","mr_dungeons_andtavernsdeserttemplereplacement","mr_dungeons_andtavernsjungletemplereplacement","mr_dungeons_andtavernsnetherfortressoverhaul","mr_dungeons_andtavernsoceanmonumentreplacement","mr_dungeons_andtavernswoodlandmansionreplacement","mss","mvs","neruina","netherportalfix","passablefoliage","patchouli","polymorph","pv-addon-soundphysics","readyplayerfun","seasonhud","sereneseasons","skinrestorer","spark","spectrelib","starterkit","structureessentials","subtle_effects","tectonic","terrablender","toughasnails","txnilib","watut","waystones","yet_another_config_lib_v3","minecraft:tieredz_mrpgc","02-FA+Objects-v1.1.zip","02-FA+Quivers-v1.1.zip","03-BetterTooltip.zip","05-Glowing Caves Background.zip"]
+resourcePacks:["vanilla","fabric","01-FreshAnimations_v1.9.2.zip","02-Better_Icons_1.21.zip","02-FA+Details-v1.1.zip","02-FA+Emissive-v1.2.zip","02-FA+Objects-v1.1.zip","02-FA+Quivers-v1.1.zip","02-FA+Spiders-v1.1.zip","03-Better+Lanterns+v1.2(mc-1.21).zip","03-Fancy Crops v1.1.zip","03-Simple Grass Flowers v1.9.5.zip","03-§9RAY\u0027s §f3D §6Ladders§8§o§k.zip","03-§9RAY\u0027s §f3D §6Rails§8§o§k.zip","03-BetterTooltip.zip","04-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip","04-Delightful-plaques-v1.1 (1.21).zip","04-waystones_1.21.1.zip","05-Glowing Caves Background.zip","minecraft:tieredz_mrpgc","moonlight:mods_dynamic_assets","seamless:default_seamless","subtle_effects:biome_color_water_particles","continuity:default","continuity:glass_pane_culling_fix","minecraft:supporteatinganimation"]
+incompatibleResourcePacks:["ambientenvironment","appleskin","badoptimizations","balm","betteradvancements","betterdays","bookshelf","brewinandchewin","carryon","comforts","dailyquests","distraction_free_recipes","enchdesc","fishermens_trap","jei","kiwi","lootintegrations","mes","mns","modernfix","mr_dungeons_andtaverns","mr_dungeons_andtavernsdeserttemplereplacement","mr_dungeons_andtavernsjungletemplereplacement","mr_dungeons_andtavernsnetherfortressoverhaul","mr_dungeons_andtavernsoceanmonumentreplacement","mr_dungeons_andtavernswoodlandmansionreplacement","mss","mvs","neruina","netherportalfix","passablefoliage","patchouli","polymorph","pv-addon-soundphysics","readyplayerfun","seasonhud","sereneseasons","skinrestorer","spark","spectrelib","starterkit","structureessentials","subtle_effects","tectonic","terrablender","toughasnails","txnilib","watut","waystones","yet_another_config_lib_v3","02-FA+Objects-v1.1.zip","02-FA+Quivers-v1.1.zip","03-BetterTooltip.zip","05-Glowing Caves Background.zip","minecraft:tieredz_mrpgc"]
 lastServer:
 lang:en_us
 chatVisibility:0
 chatOpacity:1.0
 chatLineSpacing:0.0
-textBackgroundOpacity:0.5
-backgroundForChatOnly:true
+textBackgroundOpacity:0.0
+backgroundForChatOnly:false
 hideServerAddress:false
 advancedItemTooltips:false
 pauseOnLostFocus:true
@@ -80,7 +80,7 @@ glDebugVerbosity:1
 skipMultiplayerWarning:true
 hideMatchedNames:true
 joinedFirstServer:true
-hideBundleTutorial:false
+hideBundleTutorial:true
 syncChunkWrites:true
 showAutosaveIndicator:true
 allowServerListing:true
@@ -133,7 +133,7 @@ key_dailyquests.key.togglequestlistcollapse:key.keyboard.period
 key_key.emotecraft.fastchoose:key.keyboard.t
 key_key.emotecraft.stop:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
-key_equipmentcompare.key.showTooltips:key.keyboard.left.shift
+key_equipmentcompare.key.showTooltips:key.keyboard.h
 key_key.exposure.camera_controls:key.keyboard.unknown
 key_key.fabricskyboxes.toggle:key.keyboard.unknown
 key_key.fabricskyboxes.toggle.debug_hud:key.keyboard.unknown
