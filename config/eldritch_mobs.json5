@@ -1,7 +1,7 @@
 {
-	"EliteSpawnRates": 0.001,
-	"UltraSpawnRates": 1.0E-4,
-	"EldritchSpawnRates": 1.0E-5,
+	"EliteSpawnRates": 0.01,
+	"UltraSpawnRates": 0.001,
+	"EldritchSpawnRates": 1.0E-4,
 	"EliteHealthMultiplier": 4.0,
 	"UltraHealthMultiplier": 6.0,
 	"EldritchHealthMultiplier": 8.0,
@@ -19,7 +19,7 @@
 	// Turn off titles for mobs
 	"turnOffTitles": false,
 	// Turn off boss bars
-	"turnOffBossBars": false,
+	"turnOffBossBars": true,
 	// Boss bars appears when placing crosshair on buffed mob
 	"crosshairBossBars": true,
 	// Buffed mobs are highlighted after being damaged
@@ -29,7 +29,7 @@
 	// If true, buffed mobs only drop loot when killed by players
 	"onlyDropLootIfKilledByPlayers": true,
 	// Buffed mobs also drop the loot of the tier below them + the loot of their tier.
-	"combinedLootDrop": true,
+	"combinedLootDrop": false,
 	// Buffed mobs have generic titles w/o abilities
 	"genericTitles": false,
 	// Allows to see eldritch mobs' name tags from any distance

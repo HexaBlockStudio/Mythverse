@@ -43,9 +43,9 @@
 	// min: -3000, max: 3000
 	"questListHorizontalOffset": 0,
 	// Whether the quest list in the GUI should be lowered when the player has potion effects to prevent overlap.
-	"lowerQuestListWhenPlayerHasEffects": true,
+	"lowerQuestListWhenPlayerHasEffects": false,
 	// Whether the quest list in the GUI should be lowered when bedrockify is installed and the game is saving.
-	"lowerQuestListWhenBedrockifyModSaves": true,
+	"lowerQuestListWhenBedrockifyModSaves": false,
 	// Whether the quests with the type BlockArrow should be randomly chosen.
 	"enableBlockArrowQuests": true,
 	// Whether the quests with the type BreedMob should be randomly chosen.
@@ -65,7 +65,7 @@
 	// Whether the quests with the type ExploreBiome should be randomly chosen.
 	"enableExploreBiomeQuests": true,
 	// Whether the quests with the type GainLevel should be randomly chosen.
-	"enableGainLevelQuests": true,
+	"enableGainLevelQuests": false,
 	// Whether the quests with the type HarvestBlock should be randomly chosen.
 	"enableHarvestBlockQuests": true,
 	// Whether the quests with the type HarvestCrop should be randomly chosen.
@@ -75,7 +75,7 @@
 	// Whether the quests with the type ReflectGhast should be randomly chosen.
 	"enableReflectGhastQuests": true,
 	// Whether the quests with the type ShearSheep should be randomly chosen.
-	"enableShearSheepQuests": true,
+	"enableShearSheepQuests": false,
 	// Whether the quests with the type SlayMob should be randomly chosen.
 	"enableSlayMobQuests": true,
 	// Whether the quests with the type SmeltItem should be randomly chosen.
