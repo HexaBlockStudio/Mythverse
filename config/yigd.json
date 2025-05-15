@@ -73,13 +73,13 @@
     "generateOnLastGroundPos": true,
     "tryGenerateOnGround": true,
     "generationMaxDistance": {
-      "x": 5,
-      "y": 32,
-      "z": 5
+      "x": 8,
+      "y": 16,
+      "z": 8
     },
     "useSoftBlockWhitelist": true,
     "useStrictBlockBlacklist": true,
-    "replaceOldWhenClaimed": true,
+    "replaceOldWhenClaimed": false,
     "dropItemsIfDestroyed": true,
     "notifyOwnerIfDestroyed": true,
     "persistentGraves": {
@@ -117,14 +117,7 @@
     "dropFromOldestWhenDeleted": true
   },
   "respawnConfig": {
-    "respawnEffects": [
-      {
-        "effectName": "",
-        "effectLevel": 0,
-        "effectTime": 0,
-        "showBubbles": false
-      }
-    ],
+    "respawnEffects": [],
     "respawnHealth": -1,
     "resetHunger": true,
     "respawnHunger": -1,

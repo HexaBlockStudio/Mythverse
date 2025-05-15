@@ -35,7 +35,7 @@
 		{
 			"name": "bejeweled",
 			"rowWidth": 9,
-			"numberOfRows": 5,
+			"numberOfRows": 4,
 			"isFireImmune": false,
 			"dyeable": false,
 			"openSound": "minecraft:item.armor.equip_diamond"
@@ -43,14 +43,14 @@
 		{
 			"name": "blazing",
 			"rowWidth": 9,
-			"numberOfRows": 6,
+			"numberOfRows": 5,
 			"isFireImmune": true,
 			"dyeable": false,
 			"openSound": "minecraft:item.armor.equip_leather"
 		},
 		{
 			"name": "withered",
-			"rowWidth": 11,
+			"rowWidth": 9,
 			"numberOfRows": 6,
 			"isFireImmune": false,
 			"dyeable": false,
@@ -58,8 +58,8 @@
 		},
 		{
 			"name": "endless",
-			"rowWidth": 15,
-			"numberOfRows": 6,
+			"rowWidth": 9,
+			"numberOfRows": 7,
 			"isFireImmune": false,
 			"dyeable": false,
 			"openSound": "minecraft:item.armor.equip_leather"
