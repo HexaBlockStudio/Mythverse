@@ -65,23 +65,23 @@
 	   (The first relation to be found for the target will be applied.)
 	*/
 	"player_relations": {
-		"minecraft:leash_knot": "FRIENDLY",
-		"minecraft:player": "NEUTRAL",
+		"minecraft:player": "HOSTILE",
 		"minecraft:villager": "FRIENDLY",
 		"minecraft:allay": "FRIENDLY",
 		"minecraft:iron_golem": "FRIENDLY",
 		"guardvillagers:guard": "FRIENDLY",
-		"minecraft:cat": "FRIENDLY"
+		"minecraft:cat": "FRIENDLY",
+		"minecraft:leash_knot": "ALLY"
 	},
 	"player_relation_tags": { },
 	// Relation to self, and self owned pets (tamed entities), changing this to `FRIENDLY` will make it impossible to hit pets with weapons
 	"player_relation_to_self_and_pets": "FRIENDLY",
 	// Relation to teammates (entities in the same team), changing this to `FRIENDLY` will automatically disable friendly fire for all teams
-	"player_relation_to_teammates": "FRIENDLY",
+	"player_relation_to_teammates": "ALLY",
 	// Relation to unspecified entities those are instance of PassiveEntity(Yarn)
-	"player_relation_to_passives": "NEUTRAL",
+	"player_relation_to_passives": "FRIENDLY",
 	// Relation to unspecified entities those are instance of HostileEntity(Yarn)
 	"player_relation_to_hostiles": "HOSTILE",
 	// Fallback relation
-	"player_relation_to_other": "NEUTRAL"
+	"player_relation_to_other": "HOSTILE"
 }
