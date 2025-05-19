@@ -19,9 +19,9 @@
     "dropOnGroundSlots": []
   },
   "expConfig": {
-    "dropBehaviour": "VANILLA",
-    "dropPercentage": 20,
-    "keepPercentage": 0
+    "dropBehaviour": "PERCENTAGE",
+    "dropPercentage": 0,
+    "keepPercentage": 30
   },
   "graveConfig": {
     "enabled": true,
@@ -34,7 +34,7 @@
     "requireShovelToLoot": false,
     "retrieveMethods": {
       "onClick": true,
-      "onBreak": false,
+      "onBreak": true,
       "onSneak": false,
       "onStand": false
     },
@@ -48,15 +48,15 @@
       "enabled": true,
       "killerSkipWaitTime": true,
       "afterTime": 1,
-      "timeUnit": "HOURS",
+      "timeUnit": "MINUTES",
       "robPriority": "INVENTORY",
       "notifyWhenRobbed": true,
       "tellWhoRobbed": false
     },
     "graveTimeout": {
       "enabled": true,
-      "afterTime": 7,
-      "timeUnit": "DAYS",
+      "afterTime": 5,
+      "timeUnit": "HOURS",
       "dropContentsOnTimeout": true
     },
     "treatBindingCurse": true,
@@ -70,7 +70,7 @@
       "spawnEntity": "minecraft:zombie",
       "spawnNbt": "{ArmorItems:[{},{},{},{id:\"minecraft:player_head\",components:{\"minecraft:profile\":{name:\"${owner.name}\",id:${owner.uuid}}}}]}"
     },
-    "generateOnLastGroundPos": true,
+    "generateOnLastGroundPos": false,
     "tryGenerateOnGround": true,
     "generationMaxDistance": {
       "x": 8,
@@ -113,7 +113,7 @@
       "generateInOwnClaim": true
     },
     "sellOutOfflinePeople": false,
-    "maxBackupsPerPerson": 3,
+    "maxBackupsPerPerson": 5,
     "dropFromOldestWhenDeleted": true
   },
   "respawnConfig": {
