@@ -65,11 +65,13 @@
 			"openSound": "minecraft:item.armor.equip_leather"
 		}
 	],
-	"unstackablesOnly": false,
+	"unstackablesOnly": true,
 	// Whether Shulker Boxes should be blacklisted from being placed inside Inmis Backpacks.
 	"disableShulkers": true,
 	// Backpack item blacklist
-	"blacklist": [],
+	"blacklist": [
+        "minecraft:bundle"
+    ],
 	// Whether Backpacks should play a sound when opened.
 	"playSound": true,
 	// If true, players will not be able to open Backpacks by right-clicking. This will require the player to open backpacks as a Trinket or Armor slot item with the bound key.

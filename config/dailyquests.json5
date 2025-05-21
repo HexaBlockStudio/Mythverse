@@ -53,7 +53,7 @@
 	// Whether the quests with the type BrewPotion should be randomly chosen.
 	"enableBrewPotionQuests": true,
 	// Whether the quests with the type CatchFish should be randomly chosen.
-	"enableCatchFishQuests": true,
+	"enableCatchFishQuests": false,
 	// Whether the quests with the type CollectHoney should be randomly chosen.
 	"enableCollectHoneyQuests": true,
 	// Whether the quests with the type CompleteRaid should be randomly chosen.

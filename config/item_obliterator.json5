@@ -29,9 +29,12 @@
     "earlystage:steel_hoe",
     "earlystage:steel_horse_armor",
     "earlystage:steel_block",
+    "earlystage:sieve",
+    "earlystage:redstone_sieve",
     "farmersdelight:tree_bark",
     "moredelight:diced_potatoes",
-    "moredelight:potato_salad"
+    "moredelight:potato_salad",
+    "loot_n_explore:soulfrost_lantern"
   ],
   // -----------------------------------------------------------
   // Removes an item if it contains certain Component Data. If the whole entry (or expression) is present, the item gets removed.
