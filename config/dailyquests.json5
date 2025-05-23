@@ -47,7 +47,7 @@
 	// Whether the quest list in the GUI should be lowered when bedrockify is installed and the game is saving.
 	"lowerQuestListWhenBedrockifyModSaves": false,
 	// Whether the quests with the type BlockArrow should be randomly chosen.
-	"enableBlockArrowQuests": true,
+	"enableBlockArrowQuests": false,
 	// Whether the quests with the type BreedMob should be randomly chosen.
 	"enableBreedMobQuests": true,
 	// Whether the quests with the type BrewPotion should be randomly chosen.
@@ -67,9 +67,9 @@
 	// Whether the quests with the type GainLevel should be randomly chosen.
 	"enableGainLevelQuests": false,
 	// Whether the quests with the type HarvestBlock should be randomly chosen.
-	"enableHarvestBlockQuests": true,
+	"enableHarvestBlockQuests": false,
 	// Whether the quests with the type HarvestCrop should be randomly chosen.
-	"enableHarvestCropQuests": true,
+	"enableHarvestCropQuests": false,
 	// Whether the quests with the type IgniteCreeper should be randomly chosen.
 	"enableIgniteCreeperQuests": true,
 	// Whether the quests with the type ReflectGhast should be randomly chosen.
@@ -79,7 +79,7 @@
 	// Whether the quests with the type SlayMob should be randomly chosen.
 	"enableSlayMobQuests": true,
 	// Whether the quests with the type SmeltItem should be randomly chosen.
-	"enableSmeltItemQuests": true,
+	"enableSmeltItemQuests": false,
 	// Whether the quests with the type TameAnimal should be randomly chosen.
 	"enableTameAnimalQuests": true,
 	// Whether the quests with the type TradeVillager should be randomly chosen.
