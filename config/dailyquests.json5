@@ -55,7 +55,7 @@
 	// Whether the quests with the type CatchFish should be randomly chosen.
 	"enableCatchFishQuests": false,
 	// Whether the quests with the type CollectHoney should be randomly chosen.
-	"enableCollectHoneyQuests": true,
+	"enableCollectHoneyQuests": false,
 	// Whether the quests with the type CompleteRaid should be randomly chosen.
 	"enableCompleteRaidQuests": true,
 	// Whether the quests with the type CraftItem should be randomly chosen.
@@ -71,9 +71,9 @@
 	// Whether the quests with the type HarvestCrop should be randomly chosen.
 	"enableHarvestCropQuests": false,
 	// Whether the quests with the type IgniteCreeper should be randomly chosen.
-	"enableIgniteCreeperQuests": true,
+	"enableIgniteCreeperQuests": false,
 	// Whether the quests with the type ReflectGhast should be randomly chosen.
-	"enableReflectGhastQuests": true,
+	"enableReflectGhastQuests": false,
 	// Whether the quests with the type ShearSheep should be randomly chosen.
 	"enableShearSheepQuests": false,
 	// Whether the quests with the type SlayMob should be randomly chosen.
