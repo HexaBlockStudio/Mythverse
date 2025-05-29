@@ -78,7 +78,7 @@ warpRequirements = [
     "[source_is_warp_plate] multiply_xp_cost(0)", 
     "[target_is_global] multiply_xp_cost(0)", 
     "min_xp_cost(0)", 
-    "max_xp_cost(27)", 
+    "max_xp_cost(50)", 
     "[source_is_inventory_button] add_cooldown(inventory_button, 300)"
 ]
 
@@ -103,7 +103,7 @@ spawnInVillages = "REGULAR"
 wildWaystoneStyle = "BIOME"
 
 # List of dimensions that wild waystones are allowed to spawn in. If left empty, all dimensions except those in wildWaystonesDimensionDenyList are used.
-wildWaystonesDimensionAllowList = [ "minecraft:the_end", "minecraft:overworld", "minecraft:the_nether" ]
+wildWaystonesDimensionAllowList = [ "minecraft:overworld", "minecraft:the_end", "minecraft:the_nether" ]
 
 # List of dimensions that wild waystones are not allowed to spawn in. Only used if wildWaystonesDimensionAllowList is empty.
 wildWaystonesDimensionDenyList = [  ]

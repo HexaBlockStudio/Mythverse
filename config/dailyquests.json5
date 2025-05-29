@@ -87,5 +87,5 @@
 	// Whether the quests with the type TravelDistance should be randomly chosen.
 	"enableTravelDistanceQuests": true,
 	// Whether the quests with the type UseItem should be randomly chosen.
-	"enableUseItemQuests": true
+	"enableUseItemQuests": false
 }
