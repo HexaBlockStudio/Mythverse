@@ -18,7 +18,7 @@
 	"useKeyHighPriority": false,
 	"highlightTarget": true,
 	"filterInvalidTargets": true,
-	"alwaysShowFullTooltip": false,
+	"alwaysShowFullTooltip": true,
 	"showSpellBookSuppportTooltip": true,
 	"showSpellBindingTooltip": true,
 	"showSpellCastErrors": true,

@@ -28,7 +28,6 @@
         "show_fast_rename_checkbox": {
             "value": false
         },
-        "continuous_crafting_checkbox_value": "CHECKED",
         "show_regular_sort_button": {
             "value": false
         },
@@ -43,7 +42,62 @@
         }
     },
     "Hotkeys": {
+        "open_config_menu": {
+            "main": {
+                "keys": ""
+            }
+        },
         "reload_custom_configs": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "open_gui_editor": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "apply_profile": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "next_profile": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "prev_profile": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "profile_1": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "profile_2": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "profile_3": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "save_as_profile": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "auto_refill_gui_toggle_for_slot": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "auto_refill_game_toggle_for_slot": {
             "main": {
                 "keys": ""
             }
