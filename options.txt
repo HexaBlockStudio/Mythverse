@@ -50,8 +50,8 @@ mouseSensitivity:0.15140845070422534
 damageTiltStrength:1.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:["vanilla","fabric","01-FreshAnimations_v1.9.2.zip","02-Better_Icons_1.21.zip","02-FA+Details-v1.1.zip","02-FA+Emissive-v1.2.zip","02-FA+Objects-v1.1.zip","02-FA+Quivers-v1.1.zip","02-FA+Spiders-v1.1.zip","03-Better+Lanterns+v1.2(mc-1.21).zip","03-Fancy Crops v1.1.zip","03-Simple Grass Flowers v1.9.5.zip","03-§9RAY\u0027s §f3D §6Ladders§8§o§k.zip","03-§9RAY\u0027s §f3D §6Rails§8§o§k.zip","03-BetterTooltip.zip","04-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip","04-Delightful-plaques-v1.1 (1.21).zip","04-waystones_1.21.1.zip","05-Glowing Caves Background.zip","minecraft:tieredz_mrpgc","moonlight:mods_dynamic_assets","seamless:default_seamless","subtle_effects:biome_color_water_particles","continuity:default","continuity:glass_pane_culling_fix","minecraft:supporteatinganimation"]
-incompatibleResourcePacks:["ambientenvironment","appleskin","badoptimizations","balm","betteradvancements","betterdays","bookshelf","brewinandchewin","carryon","comforts","dailyquests","distraction_free_recipes","enchdesc","fishermens_trap","jei","kiwi","lootintegrations","mes","mns","modernfix","mr_dungeons_andtaverns","mr_dungeons_andtavernsdeserttemplereplacement","mr_dungeons_andtavernsjungletemplereplacement","mr_dungeons_andtavernsnetherfortressoverhaul","mr_dungeons_andtavernsoceanmonumentreplacement","mr_dungeons_andtavernswoodlandmansionreplacement","mss","mvs","neruina","netherportalfix","passablefoliage","patchouli","polymorph","pv-addon-soundphysics","readyplayerfun","seasonhud","sereneseasons","skinrestorer","spark","spectrelib","starterkit","structureessentials","subtle_effects","tectonic","terrablender","toughasnails","txnilib","watut","waystones","yet_another_config_lib_v3","02-FA+Objects-v1.1.zip","02-FA+Quivers-v1.1.zip","03-BetterTooltip.zip","05-Glowing Caves Background.zip","minecraft:tieredz_mrpgc"]
+resourcePacks:["vanilla","fabric","01-FreshAnimations_v1.9.2.zip","02-Better_Icons_1.21.zip","02-FA+Details-v1.1.zip","03-Better+Lanterns+v1.2(mc-1.21).zip","03-Fancy Crops v1.1.zip","03-Simple Grass Flowers v1.9.5.zip","03-§9RAY\u0027s §f3D §6Ladders§8§o§k.zip","03-§9RAY\u0027s §f3D §6Rails§8§o§k.zip","04-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip","04-Delightful-plaques-v1.1 (1.21).zip","04-waystones_1.21.1.zip","05-Glowing Caves Background.zip","moonlight:mods_dynamic_assets","seamless:default_seamless","continuity:default","continuity:glass_pane_culling_fix","minecraft:supporteatinganimation"]
+incompatibleResourcePacks:["ambientenvironment","appleskin","badoptimizations","balm","betteradvancements","betterdays","bookshelf","brewinandchewin","carryon","comforts","dailyquests","distraction_free_recipes","enchdesc","fishermens_trap","jei","kiwi","lootintegrations","mes","mns","modernfix","mr_dungeons_andtaverns","mr_dungeons_andtavernsdeserttemplereplacement","mr_dungeons_andtavernsjungletemplereplacement","mr_dungeons_andtavernsnetherfortressoverhaul","mr_dungeons_andtavernsoceanmonumentreplacement","mr_dungeons_andtavernswoodlandmansionreplacement","neruina","netherportalfix","passablefoliage","patchouli","polymorph","pv-addon-soundphysics","readyplayerfun","seasonhud","sereneseasons","skinrestorer","spark","spectrelib","starterkit","structureessentials","subtle_effects","tectonic","terrablender","toughasnails","txnilib","watut","waystones","yet_another_config_lib_v3","02-FA+Objects-v1.1.zip","02-FA+Quivers-v1.1.zip","03-BetterTooltip.zip","05-Glowing Caves Background.zip","file/EclecticTrove-noconfig-1.20.1-1.3.0.zip"]
 lastServer:
 lang:en_us
 chatVisibility:0
@@ -60,7 +60,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.0
 backgroundForChatOnly:false
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0
@@ -124,6 +124,10 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_key.ftbteams.open_gui:key.keyboard.unknown
+key_legendarytooltips.key.scrollTooltips:key.keyboard.left.control
+key_accessories.key.open_accessories_screen:key.keyboard.h
+key_autothirdperson.toggle:key.keyboard.unknown
 key_keybinds.bettercombat.feint:key.keyboard.x
 key_keybinds.bettercombat.toggle_mine_with_weapons:key.keyboard.caps.lock
 key_key.carry.desc:key.keyboard.unknown
@@ -133,7 +137,7 @@ key_dailyquests.key.togglequestlistcollapse:key.keyboard.period
 key_key.emotecraft.fastchoose:key.keyboard.t
 key_key.emotecraft.stop:key.keyboard.unknown
 key_key.entityculling.toggle:key.keyboard.unknown
-key_equipmentcompare.key.showTooltips:key.keyboard.h
+key_equipmentcompare.key.showTooltips:key.keyboard.left.shift
 key_key.exposure.camera_controls:key.keyboard.unknown
 key_key.fabricskyboxes.toggle:key.keyboard.unknown
 key_key.fabricskyboxes.toggle.debug_hud:key.keyboard.unknown
@@ -233,8 +237,8 @@ key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.unknown
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 key_iris.keybind.wireframe:key.keyboard.unknown
-soundCategory_master:0.5
-soundCategory_music:0.6091549295774648
+soundCategory_master:1.0
+soundCategory_music:0.5
 soundCategory_record:1.0
 soundCategory_weather:0.8591549295774648
 soundCategory_block:0.8591549295774648
